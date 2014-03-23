@@ -1,7 +1,7 @@
 PATH
   remote: ../../
   specs:
-    ember_devise_simple_auth (0.4.4)
+    ember_devise_simple_auth (0.5.0)
       devise (>= 3.0.0)
 
 GEM
