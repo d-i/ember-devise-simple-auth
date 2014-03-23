@@ -73,7 +73,7 @@ require('ember-devise-simple-auth');
 
 ## Configuring
 
-There are a few options you can specify now, and more to come in the future. If there's something you need to configure but can't figure out how, please [open an issue](issues/new) describing what you needa nd we'll see if we can provide it.
+There are a few options you can specify now, and more to come in the future. If there's something you need to configure but can't figure out how, please [open an issue](issues/new) describing what you need and we'll see if we can provide it.
 
 Configuration happens in `config/application.js` as part of the call to `create()`:
 
