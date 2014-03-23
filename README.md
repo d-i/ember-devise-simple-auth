@@ -14,9 +14,9 @@ Provides the necessary Ember plumbing to integrate with an out-of-the-box Devise
 
 `config/initializers/authenticator.js` - Injects the authenticator into your routes & controllers so you have access to the signed-in state anywhere you are!
 
-`config/initializers/csrf.js` - jQuery ajax response handler that reads new CSRF tokens handed in from devise (see [companion gem][companion_gem]).
+`config/initializers/csrf.js` - jQuery ajax response handler that reads new CSRF tokens handed in from devise (see [companion gem](#install-gem-for-server-side-support)).
 
-`config/initializers/session-route.js` - Adds a route named "session" to your app's router. The path defaults to `/sign-in` but [is configurable][configurable].
+`config/initializers/session-route.js` - Adds a route named "session" to your app's router. The path defaults to `/sign-in` but [is configurable](#configuring).
 
 `config/plugin.js` - The main file that loads the plugin. Extends the base `Ember.Route` with some auth-related action handlers.  Extends `Ember.Controller` with properties for signed-in state.
 
@@ -95,7 +95,7 @@ For a real-world example of `ember-devise-simple-auth` in use, check out [factur
 
 ## Usage
 
-**NOTE:** This assumes you have configured Devise and followed the instructions above in [Installation][installation].
+**NOTE:** This assumes you have configured Devise and followed the instructions above in [Installing](#installing).
 
 The only thing you need to do is provide a template named `session` (for eak-rails that would be `app/templates/session.hbs`). Then assign `{{action signIn}}` to a button or form and you should be good to go.
 
