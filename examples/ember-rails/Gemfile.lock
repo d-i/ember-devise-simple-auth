@@ -116,7 +116,7 @@ GEM
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
-    sprockets (2.11.1)
+    sprockets (2.12.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
       rack (~> 1.0)
