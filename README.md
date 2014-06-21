@@ -133,7 +133,7 @@ export default Ember.Route.extend({
 
 #### Customize Transition on Sign Out
 
-On sign out, `ember-devise-simple-auth` automatically transitions back to sign in. If you prefer it goes somehwere different, you can handle the `didSignOut` action:
+On sign out, `ember-devise-simple-auth` automatically transitions back to sign in. If you prefer it goes somewhere different, you can handle the `didSignOut` action:
 
 ```javascript
 export default Ember.Route.extend({
