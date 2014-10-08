@@ -51,8 +51,8 @@ var Authenticator = Ember.Object.extend({
            });
 
   },
-  signIn: function() {
-    var setup = this.setupSession.bind(this),
+  signIn: function(store) {
+    var setup = this.setupSession.bind(this, store),
         data = {
           user: {
             email: this.get("email"),
